@@ -9,19 +9,19 @@
   background: #eff3f4;
 }
 
-p {
+.text {
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
 }
 
-.font_1 {
+.font_left {
   float: left;
   margin-bottom: 10px;
   margin-right: 20px;
 }
 
-.font_2 {
+.font_right {
   float: right;
   margin-bottom: 10px;
   margin-left: 20px;

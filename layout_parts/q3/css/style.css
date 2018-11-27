@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.q3_table {
   margin: 0 auto;
   border: 1px solid #dedede;
   width: 100%;
@@ -9,7 +9,7 @@ table {
   text-align: center; 
 }
 
-th {
+.q3_table th {
   font-size: 18px;
   line-height: 26px;
   padding: 10px;
@@ -18,24 +18,24 @@ th {
   border: 1px solid #dedede;
 }
 
-td {
+.q3_table td {
   font-size: 16px;
   line-height: 26px;
   border: 1px solid #dedede; 
 }
 
-tbody tr:nth-child(2n) {
+.q3_table tbody tr:nth-child(2n) {
   background: #ecf1f2;
+}
+
+.q3_table tbody tr:last-child {
+  border-top: 2px #000 dashed;
 }
 
 /*.gray {
   background: #ecf1f2;
 }
 */
-
-tbody tr:last-child {
-  border-top: 2px #000 dashed;
-}
 
 /*.border_top {
   border-top: 2px #000 dashed;

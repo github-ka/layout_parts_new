@@ -98,6 +98,13 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
+
+                       <!--フォームのフォーカス設置
+                        アウトラインを消せば、フォーカス擬似要素反応する
+                        セレクト
+                        アクティブ擬似要素　送信ボタン
+                       -->
+
           <div class="q8">
             <form class="form_ex" action="">
               <div class="form_ex_title">
@@ -108,8 +115,6 @@
                   <textarea class="main__right_m" name="message" placeholder="何かあれば入力してください。"></textarea>
                 </div>
                 <div class="main__left">
-
-
                   <ul class="main__right_top">
                     <li class="clearfix">
                       <p class="main__right_top_text">名前<span class="text_span">*</span></p>
@@ -132,12 +137,12 @@
                     </li>
                     <li class="clearfix">
                       <p class="main__right_top_text">出身</p>
-                      <div class="top_text_right">
+                      <div class="top_text_right select_check">
                         <select class="select_q8" name="home" id="">
-                          <option value="1">東京</option>
-                          <option value="2">埼玉</option>
-                          <option value="3">千葉</option>
-                          <option value="4">神奈川</option>
+                          <option value="tokyo">東京</option>
+                          <option value="saitama">埼玉</option>
+                          <option value="tiba">千葉</option>
+                          <option value="kanagawa">神奈川</option>
                         </select>
                       </div>
                     </li>
@@ -157,16 +162,13 @@
                       <div class="top_text_right">
                         <div class="right_q8__checkbox">
                          <input class="input-none" id="q8__checkbox" type="checkbox">
-                         <label class="q8__checkbox_ text_right_sex" for="q8__checkbox">20歳以上です</label>
+                         <label class="q8__checkbox_ " for="q8__checkbox">20歳以上です</label>
                         </div>
                       </div>
                     </li>
                   </ul>
-
-
-
                   <div class="main__left_bottom">
-                    <button class="main_left_bottom_sub" type="submit">送信</button>
+                    <button class="main_left_bottom_sub " type="submit">送信</button>
                   </div>
                 </div>
               </div>

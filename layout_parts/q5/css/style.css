@@ -19,7 +19,7 @@
   position: absolute;
 }
 
-.q5__box._1 {
+.number_1 {
   z-index: 1;
   background: #ffefd3;
 /*  position: absolute;
@@ -27,7 +27,7 @@
   left: 200px;
 }
 
-.q5__box._2 {
+.number_2 {
   z-index: 2;
   background: #7084ef;
   /*position: absolute;*/
@@ -35,7 +35,7 @@
   left: 280px;
 }
 
-.q5__box._3 {
+.number_3 {
   z-index: 3;
   background: #d0ecea;
 /*  position: absolute;
@@ -43,7 +43,7 @@
   left: 360px;
 }
 
-.q5__box._4 {
+.number_4 {
   z-index: 4;
   background: #8b7a5e;
   /*position: absolute;*/
@@ -51,7 +51,7 @@
   left: 280px;
 }
 
-.q5__box._5 {
+.number_5 {
   z-index: 5;
   background: #9fd6d2;
 /*  position: absolute;
@@ -59,7 +59,7 @@
   left: 200px;
 }
 
-.q5__box._6 {
+.number_6 {
   z-index: 6;
   background: #fffee4;
 /*  position: absolute;
@@ -67,7 +67,7 @@
   left: 120px;
 }
 
-.q5__box._7 {
+.number_7 {
   z-index: 7;
   background: #deae70;
 /*  position: absolute;
@@ -75,7 +75,7 @@
   left: 40px;
 }
 
-.q5__box._8{
+.number_8{
   z-index: 8;
   background: #de70cf;
 /*  position: absolute;*/
@@ -83,7 +83,7 @@
   left: 120px;
 }
 
-.q5__box._8:after {
+.number_8:after {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -93,7 +93,7 @@
   content: "";
 }
 
-.q5__box._9{
+.number_9 {
   position: fixed;
   background: #2b69a3;
   top: 10px;
