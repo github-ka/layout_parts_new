@@ -31,9 +31,13 @@
   margin-left: 10px;
   display: inline-block;
   cursor: pointer;
+}
+
+.style_shadow {
   box-shadow : 0 1px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
 }
+
 .q8--btn .style:first-of-type {
   margin-left: 0;
 }
@@ -208,7 +212,8 @@
   box-sizing: border-box;
   cursor: pointer;
   border: none;
-  -webkit-appearance: none; 
+  outline: none;
+  -webkit-appearance: none;
 }
 
 .select_check {
@@ -227,16 +232,14 @@
   transform: rotate(46deg);
 }
 
-.select_q8:checked + .
-
-
-.q8__checkbox_ {
+.q8___checkbox {
   position: relative;
   padding-left: 24px;
   margin-left: 55px;
 }
 
-.q8__checkbox_:before {
+
+.q8___checkbox:before {
   content: '';
   width: 16px;
   height: 16px;
@@ -248,7 +251,7 @@
   margin-top: -9px;
 }
 
-.input-none:checked +.q8__checkbox_:after {
+.input-none:checked +.q8___checkbox:after {
   content: '';
   width: 8px;
   height: 16px;
